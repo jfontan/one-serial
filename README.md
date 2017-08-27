@@ -13,6 +13,10 @@ $ ssh-keygen -f ./id_rsa
 
 * The user running the server should have OpenNebula credentials to retrieve VM info and ssh configured to connect to the hosts. Tested with `oneadmin` user
 
+## Binary
+
+https://downloads.zooloo.org/one-serial.xz
+
 ## VM preparation
 
 The VM template should have serial console enabled. Add this to the template:
